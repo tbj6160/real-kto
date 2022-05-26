@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@import url("common-main.css");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&display=swap");
+
+main {
+}
+
+.main1 {
+    overflow: hidden;
+}
+.main1 > div {
+    color: white;
+}
+.main1 > div > h2 {
+    font-size: 60px;
+    transform: translate(-2%, -30%);
+}
+.main1 > div > p {
+    font-size: 30px;
+}
+.main1 > p {
+}
+.main1 > p > img {
+    width: 100%;
+}
+
+header > div {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.main1 > p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main1 > div {
+    position: absolute;
+    left: 18%;
+    top: 25%;
+
+    z-index: 2;
+}
+
+.main2 {
+    overflow: hidden;
+    padding-top: 1100px;
+    align-items: center;
+    text-align: center;
+    width: 1607px;
+    margin: 0 auto;
+    padding-bottom: 220px;
+}
+.main2 > h2 {
+    font-size: 23px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.main2 > div {
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.main2 figure P {
+    position: absolute;
+    left: 70;
+    top: 100;
+    z-index: 2;
+}
+
+.main2 figure a {
+    position: relative;
+}
+
+.main2 figure a img {
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.397);
+}
+
+.main2 > div > figure:nth-child(1) > p {
+    transform: translate(58px, 30px);
+}
+.main2 > div > figure:nth-child(2) > p {
+    transform: translate(70px, 20px);
+}
+.main2 > div > figure:nth-child(3) > p {
+    transform: translate(65px, 20px);
+}
+.main2 > div > figure:nth-child(4) > p {
+    transform: translate(100px, 20px);
+}
+
+main > div > iframe {
+    vertical-align: top;
+}
+
+.main3 {
+    background-color: #0c173b;
+}
+
+footer {
+    background-color: #0c173b;
+}
+
+.main3 {
+    overflow: hidden;
+}
+.main3 > h2 {
+    font-size: 150px;
+    color: #b9b9b93a;
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+
+    white-space: nowrap; /*텍스트 줄바꿈 안되게*/
+}
+
+.main3 > h2 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 0%;
+    }
+
+    to {
+        margin-left: 100%;
+        width: 100%;
+    }
+}
+
+
+.deco {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    opacity: 20%;
+    transform: translate(0, -350px);
+}
+.deco > img {
+}
+.deco > img:nth-child(1) {
+    transform: rotate(90deg) translate(200%, 20%);
+}
+.deco > img:nth-child(2) {
+    transform: scaleY(-1) scaleX(-1) rotate(90deg) translate(-50%, 167%);
+}
+.deco > img:nth-child(3) {
+    transform: translate(3%, 98%);
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    transform: translate(0, -400px);
+}
+.txt > img {
+    padding-left: 250px;
+}
+.txt > p {
+    font-size: 25px;
+    color: white;
+    padding-left: 100px;
+    line-height: 70px;
+    text-align: left;
+    align-items: center;
+}

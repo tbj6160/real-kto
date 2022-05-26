@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+
+    margin: 0px 60px 0 30px; 
+}
+
+header > div {
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    align-items: center;
+}
+header > div > a {
+    color: black;
+}
+header > div > a > img {
+    width: 150px;
+}
+.menu {
+    padding-left: 60%;
+}
+.menu > ul {
+    display: flex;
+    
+}
+.menu > ul > li {
+    position: relative;
+}
+.menu > ul > li > a {
+    display: inline-block;
+    padding: 0 50px;
+    color: black;
+}
+.menu > ul > li a {
+    font-size: 12px;
+    color: white;
+}
+.menu > ul > li > div {
+    background-color: rgba(255, 255, 255, 0.356);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    display: none;
+    transition: 1s;
+    width: 100%;
+}
+.menu > ul > li > div > a {
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+
+.menu > ul > li:hover > div {
+    display: block;
+}
+
+
+
+footer{}
+.logo{
+   text-align: center;
+}
+.logo>img{width: 200px;
+    }
+.icon{}
+.icon>span{}
+.icon>span>a{}
+
+
+.f-img{}
+.f-img>a
+.f-img>a>img{}
+
+.f-txt{ color:  white;
+text-align: center;
+font-size: 10px;}
+.f-txt>p{}
+.f-txt>p:nth-child(1){}
+.f-txt>p:nth-child(2){}
+
+
+
+
